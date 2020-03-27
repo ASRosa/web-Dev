@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>This example calls a function which performs a calculation, and returns the result:</p>        
+
+        <p id="sample"></p>
+        <script>
+            function myF(X, Y){
+                return X * Y;
+            }
+            document.getElementById("sample").innerHTML = myF(6,3);
+        </script>
+
+        <p>This exaple call a function convert from Seconds to Minutes</p>
+
+        <p id="sample1"></p>
+        <script>
+            function sTOm(s){
+                return s/60 + " minutes ";    
+            }
+            document.getElementById("sample1").innerHTML = sTOm(420);
+        </script>
+    </body>
+</html>

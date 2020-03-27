@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+
+
+    <body>
+        <h3> This is the example of if statement </h3>
+
+        <p> Click the button to know your driving eligibity </p>
+        <button onclick="myFun()"> Try if </button>
+
+        <p id="demo"></p>
+        <script>
+            function myFun(){
+                var message;
+                var age = 23;
+                if (age > 18){
+                    message = "You are eligible to drive";
+                }
+                document.getElementById("demo").innerHTML = message;
+            }
+        </script>
+<-- ---------------------------------------------------- -->
+        <h3> This is the example of else STATEMENT </h3>
+
+        <p> Click the button to know your driving eligibity </p>
+        <button onclick="myFun1()"> TRY i t </button>
+
+        <p id="alpha"></p>
+        <script>
+            function myFun1(){
+                var message1;
+                var age = 10;
+                if (age > 18){
+                    message = "you are eligible to drive";
+                }else{
+                    message1 = "no eligible to drive";
+                }
+                document.getElementById("alpha").innerHTML = message1;
+            }
+        </script>
+<-- ---------------------------------------------------- -->
+        <h3> This is the example of else statement </h3>
+
+        <p>Click the buttom to know your driving eligibity</p>
+        <button onclick="myFunny()">if T.R.Y.</button>
+
+        <p id="beta"></p>
+        <script>
+            function myFunny(){
+                var message223;
+                var age = 49;
+                if (age < 49){
+                    message223 = "not eligible to drive";
+                }else if (age > 49){
+                    message223 = "you are elegible to drive";
+                }else{
+                    message223 = "you have just turned 49!";
+                }
+                document.getElementById("beta").innerHTML = message223;
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+      <h3> Example FOR LOOP </h3>  
+
+      <p> Click the button to loop through a block of code five times. </p>
+
+      <button onclick="lopper()"> button </button>
+
+      <p id="sample"></p>
+      <script>
+          function lopper(){
+            var text = "";
+            var i;
+            for (i=0; i<5; i++){
+                text += "The number is "+ i +"<br>";
+            }
+            document.getElementById("sample").innerHTML = text;
+        }
+      </script>
+    </body>
+</html>

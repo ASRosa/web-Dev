@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h3> Example Do/While loop </h3>
+        <p> Click the button to loop through a block of code as long as i is less than 12 </p>
+        <button onclick="initialD()"><i><b> SPEED SPEED BOY </b>- Marko Polo </i></button>
+
+        <p id="samba"></p>
+        <script>
+            function initialD(){
+                var text = "";
+                var i = 1;
+
+                do {
+                    text += "<br> The number is " + i;
+                    i++;
+                }while(i<12)
+                document.getElementById("samba").innerHTML = text;
+            }
+        </script>
+    </body>
+</html>
